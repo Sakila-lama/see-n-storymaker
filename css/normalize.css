@@ -1,0 +1,54 @@
+body {
+  background-color: #0d0b0b; 
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+h1 {
+  margin: 2em 0;
+  color: #ffffff; 
+  text-align: center;
+}
+
+#wordButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#extraButtons {
+  margin: 20px auto; /* Center the div horizontally with auto margins */
+  text-align: center; /* Center the content inside the div */
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff5a08; 
+  border: 1px solid #fbabbd; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #d30f0f; 
+}
+
+#extraButtons button {
+  background-color: #f0c801; /* Different background color for buttons inside #extraButtons */
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#extraButtons button:hover {
+  background-color: #ad4602; 
+}
